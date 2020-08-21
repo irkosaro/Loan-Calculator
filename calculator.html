@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Loan Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+  </head>
+  <body>
+    <header>
+      <h1>LOAN CALCULATOR 💰💲💵</h1>
+    </header>
+    <section class="calc-container">
+      <form id="calc-form">
+        <label>
+          LOAN AMOUNT
+          <input type="text" id="loan-amount">
+        </label>
+        <label>
+          TERM IN YEARS
+          <input type="text" id="loan-years">
+        </label>
+        <label>
+          YEARLY RATE
+          <input type="text" id="loan-rate">
+        </label>
+        <button type="submit" id="calc-submit">CALCULATE</button>
+      </form>
+      <div>
+        <h3>MONTHLY PAYMENT<h3>
+        <span id="monthly-payment"></span>
+      </div>
+    </section>
+  </body>
+</html>
